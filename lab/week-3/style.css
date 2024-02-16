@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(237, 236, 221);
+    margin: 0;
+}
+
+h1 {
+    font-family: "kepler-std-subhead", serif;
+font-weight: 300;
+font-style: normal;
+font-size: 150px;
+color: rgb(105, 115, 65);
+text-align: center;
+margin-top: 10px;
+
+}
+
+.img1 {
+    margin-top: -15vh;
+    margin-left: 0vw;
+    height: auto;
+    text-align: center;
+}
+
+.cap1 {
+    font-family: "kepler-std-subhead", serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+color: rgb(105, 115, 65);
+text-align: center;
+margin-top: 0vh;
+}
+
+h4 {
+    font-family: "kepler-std-subhead", serif;
+font-weight: 500;
+font-style: normal;
+font-size: 30px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+}
+
+summary {
+    font-family: "kepler-std-subhead", serif;
+font-weight: 500;
+font-style: normal;
+font-size: 30px;
+padding-left: 10px;
+background-color: rgb(105, 115, 65);
+color: white;
+}
+
+.p1 {
+    font-family: "kepler-std-subhead", serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+padding-left: 10px;
+padding-right: 10px;
+}
