@@ -1,0 +1,73 @@
+.grid {
+display: grid;
+gap: 1.5rem;
+grid-template-columns: repeat(12, minmax(0, 1fr));
+padding-left: 1rem;
+padding-right: 1rem;
+font-family: "kepler-std-semicondensed-sub", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(215, 22, 22);
+margin-bottom: 25px;
+min-height: 200px;
+}
+
+.container-1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+
+.column-2 {
+grid-column: span 2;
+text-align: center;
+font-size: 40px;
+}
+
+.column-4 {
+grid-column: span 3;
+font-size: 40px;
+}
+
+.column-6 {
+grid-column: span 7;
+font-size: 30px;
+}
+
+.border {
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+.h11 {
+    position: fixed;
+    font-family: "kepler-std-semicondensed-sub", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.h22 {
+    position: fixed;
+    right:1rem;
+    font-size: 30px;
+    
+}
+
+.prel {
+    position: relative;
+    left: 30px;
+}
+
+.p1 {
+    font-family: "kepler-std-semicondensed-sub", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+     color: rgb(215, 22, 22);
+}
