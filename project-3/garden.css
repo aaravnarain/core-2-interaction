@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    overflow: hidden; 
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: url('../project-3/images/ycur1.png') 6 6, auto;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: auto; 
+    z-index: -1; 
+    object-fit: cover; 
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    color: white; 
+    padding: 20px;
+}
+
+.season-selector {
+    position: fixed;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    top: 1vh;
+    left: 2vh;
+    z-index: 1000;
+    background-color: rgb(255, 222, 18);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .audio-selector {
+    position: fixed;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    top: 1vh;
+    left: 30vh;
+    z-index: 1000;
+    background-color: rgb(255, 222, 18);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+@font-face {
+    font-family: 'PPeditorial'; 
+    src: url('../project-3/PPEditorialNew-UltralightItalic.otf') format('opentype'); 
+}
+
+h1 {
+    color: rgb(255, 222, 18);
+    font-size: 50px;
+    padding-top: 85vh;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-family: "PPeditorial", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.overlay-image {
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.overlay-image:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 390px) {
+    .overlay-image {
+        position: fixed;
+        top: 12vh; 
+        right: 1vh; 
+        z-index: 1000; 
+        width: 100px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .audio-selector {
+        top: 6vh;
+        left: 24vh;
+      }
+
+      .season-selector {
+        left: 1vh;
+        top: 6vh;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+}

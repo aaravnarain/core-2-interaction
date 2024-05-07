@@ -1,0 +1,206 @@
+#draggable1 {
+    width: auto;
+        height: 23vh;
+        top: 73vh;
+        left: 44vh;
+}
+
+#draggable2 {
+    width: auto;
+        height: 45vh;
+        top: 29vh;
+        left: 19vh;
+}
+
+#draggable3 {
+    width: auto;
+        height: 15vh;
+        top: 25vh;
+        left: 67vh;
+}
+
+#draggable4 {
+    width: auto;
+        height: 30vh;
+        top: 65vh;
+        left: 5vh;
+}
+
+#draggable5 {
+    width: auto;
+        height: 26vh;
+        top: 45vh;
+        left: 79vh;
+}
+
+#draggable6 {
+    width: auto;
+        height: 40vh;
+        top: 12vh;
+        left: 2vh;
+}
+
+  
+  h1 {
+    color: rgb(255, 222, 18);
+    font-size: 55px;
+    text-align: center;
+    font-family: 'PPeditorial';
+    font-weight: 300;
+    position: absolute; 
+    top: 8%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 10; 
+    width: 80%; 
+  }
+
+  @font-face {
+    font-family: 'PPeditorial'; 
+    src: url('../project-3/PPEditorialNew-UltralightItalic.otf') format('opentype'); 
+  }
+
+  body, html {
+    cursor: url('../project-3/images/ycur1.png') 6 6, auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('../project-3/images/e42ea1b762492809b40767739699a6fd.jpg');
+    background-size: 100%; 
+background-position: center; 
+background-repeat: no-repeat;
+  }
+
+  .element {
+    background-image: url('../project-3/images/e42ea1b762492809b40767739699a6fd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+  
+  .half-width-shape {
+    width: 50vw;
+    height: 110vh;
+    background-color: rgb(116, 132, 66);
+    position: absolute;
+    z-index: 1; 
+  }
+  
+  .dragme {
+    position: absolute; 
+    cursor: move;
+    z-index: 2;
+  }
+
+  #captureArea {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent; 
+  }
+  .b1 {
+    position: absolute;
+    top: 90vh;
+    right: 30vh;
+    z-index: 100000;
+  }
+
+
+.overlay-image {
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.overlay-image:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 390px) {
+.half-width-shape {
+    width: 100vw; 
+    height: 63vh; 
+    
+}
+
+.overlay-image {
+    position: fixed;
+    top: 5vh; 
+    right: 1vh; 
+    z-index: 1000; 
+    width: 70px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    font-size: 26px;
+    left: 20vh;
+    top: 5vh;
+}
+
+.element {
+    background-image: url('../project-3/images/e42ea1b762492809b40767739699a6fd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+body, html {
+    cursor: url('../project-3/images/ycur1.png') 6 6, auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('../project-3/images/e42ea1b762492809b40767739699a6fd.jpg');
+    background-size: 1000%; 
+background-position: center; 
+background-repeat: no-repeat;
+  }
+
+  #draggable1 {
+    width: auto;
+        height: 11.5vh;
+        top: 47vh;
+        left: 22vh;
+}
+
+#draggable2 {
+    width: auto;
+        height: 22.5vh;
+        top: 21vh;
+        left: 11vh;
+}
+
+#draggable3 {
+    width: auto;
+        height: 7.5vh;
+        top: 18vh;
+        left: 35vh;
+}
+
+#draggable4 {
+    width: auto;
+        height: 15vh;
+        top: 43vh;
+        left: 5vh;
+}
+
+#draggable5 {
+    width: auto;
+        height: 13vh;
+        top: 32vh;
+        left: 39vh;
+}
+
+#draggable6 {
+    width: auto;
+        height: 20vh;
+        top: 12vh;
+        left: 2vh;
+}
+}

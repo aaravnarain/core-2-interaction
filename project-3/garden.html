@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="garden.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wsk6ote.css">
+    <title>Garden</title>
+</head>
+<body>
+    <div class="season-selector">
+        <label for="season-select">Select Season:</label>
+        <select id="season-select">
+          <option value="summer">Summer</option>
+          <option value="autumn">Autumn</option>
+          <option value="winter">Winter</option>
+          <option value="spring">Spring</option>
+        </select>
+      </div>
+
+      <div class="audio-selector">
+        <label for="audio-select">Select Audio:</label>
+        <select id="audio-select">
+            <option value="ambient.mp3">Ambient</option>
+          <option value="happyjazz.mp3">Jazz</option>
+          <option value="piano.mp3">Piano</option>
+        </select>
+      </div>
+      
+      <audio id="background-audio" autoplay loop>
+        
+        <source src="images/ambient.mp3" type="audio/mpeg">
+        
+        Your browser does not support the audio tag.
+      </audio>
+    
+      <video id="background-video" autoplay muted loop>
+        
+        <source src="../project-3/images/summer.mp4" type="video/mp4">
+        
+        Your browser does not support the video tag.
+      </video>
+    
+        <h1>Create your own garden!</h1>
+    </div>
+    <a href="../project-3/options.html"><img src="../project-3/images/Untitled-8.png" alt="Overlay Image" class="overlay-image"></a>
+    <script src="garden.js"></script>
+</body>
+</html>
+
