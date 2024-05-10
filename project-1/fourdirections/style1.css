@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(242, 242, 232);
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    
+}
+
+.vertical-line {
+    border-right: 2px solid rgb(43, 57, 144); 
+    height: 212vh; 
+    width: 158vw;
+    z-index: 2;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: rgb(43, 57, 144);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+p {
+    font-size: 30px;
+    font-family: "kepler-std-semicondensed-cap", serif;
+font-weight: 300;
+font-style: normal;
+opacity: 0.3;
+transition: opacity 0.2s ease-in-out;
+}
+
+p:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-family: "kepler-std-semicondensed-sub", serif;
+    font-weight: 300;
+    font-style: normal;
+font-size: 50px;
+color: rgb(43, 57, 144);
+position: absolute;
+z-index: 1;
+padding-left: 3vw;
+padding-top: 3vh;
+position: fixed;
+}
+
+.heading2 {
+    font-family: "kepler-std-semicondensed-sub", serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.continue {
+    font-family: "kepler-std-semicondensed-sub", serif;
+    font-weight: 300;
+    font-style: normal;
+font-size: 40px;
+color: rgb(43, 57, 144);
+z-index: 10000;
+padding-left: 3vw;
+padding-top: 90vh;
+position: fixed;
+}
+
+
